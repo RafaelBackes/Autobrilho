@@ -1,0 +1,157 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os ícones */
+}
+
+.social-media a {
+    margin-left: 15px; /* Ajuste o espaçamento entre os ícones conforme necessário */
+}
+
+.social-media img {
+    width: 50px; /* Aumenta a largura dos ícones */
+    height: 50px; /* Aumenta a altura dos ícones */
+    transition: transform 0.3s; /* Adiciona um efeito de transição suave para o hover */
+}
+
+.social-media img:hover {
+    transform: scale(1.1); /* Aumenta um pouco o tamanho dos ícones ao passar o mouse */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaçamento entre as imagens */
+}
+
+.photos img {
+    flex: 1 1 calc(13% - 5px); /* Ajuste o cálculo conforme o espaçamento */
+    height: 400px; /* Altura fixa */
+    border: 1px solid #000; /* Borda preta de 3 pixels */
+    border-radius: px; /* Bordas arredondadas para a borda */
+    object-fit: cover; /* Mantém o foco principal da imagem */
+}
+
+.photos-container {
+    background-color: #d3d2d2; /* Fundo cinza claro */
+}
+
+
+.photos img:last-child {
+    margin-right: 0;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.admin-button {
+    position: fixed;
+    bottom: 20px; /* Espaço do fundo da página */
+    right: 20px; /* Espaço da borda direita */
+    background-color: #0c0c0c; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    text-decoration: none; /* Remove sublinhado do link */
+    font-size: 16px; /* Tamanho da fonte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do botão */
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+
+.admin-button:hover {
+    background-color: #663526; /* Cor de fundo do botão ao passar o mouse */
+}
+
+
